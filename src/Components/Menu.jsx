@@ -24,7 +24,7 @@ borad=()=>{
     render(){
         return(
             <div>
-                <div>
+                <div className="menu">
                     <h2>Create Post</h2>
                     <input type='button' value='Move to Post creation' onClick={this.post} />
                 </div>
