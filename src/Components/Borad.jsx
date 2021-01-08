@@ -30,6 +30,7 @@ class Borad extends React.Component{
     render(){
         return(
             <div>
+                <h1>Borad</h1>
                 <input onChange={this.change} value={this.state.search} />
                 {this.props.borad.filter((p)=>p.title.includes(this.state.search)).map((post,index)=>
                     <div key={index} onClick={()=>this.viewSingle(post)}>
